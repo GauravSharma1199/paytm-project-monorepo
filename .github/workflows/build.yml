@@ -18,5 +18,8 @@ jobs:
       - name: Install Dependecies
         run: npm install
 
+      - name: Generate prisma cliwnt
+        run: npm run db:generate
+
       - name: Run Build
         run: npm run build
