@@ -10,7 +10,7 @@ export const authOptions = {
             phone: { label: "Phone number", type: "text", placeholder: "1231231231", required: true },
             password: { label: "Password", type: "password", required: true }
           },
-          // TODO: User credentials type from next-aut
+          // TODO: User credentials type from next-auth
           async authorize(credentials: any) {
             // console.log(credentials);
             
