@@ -19,8 +19,6 @@ jobs:
         
       - name: Install depencies in user-app
         run: npm run user-app:install
-      - name: Install depencies in merchant-app
-        run: npm run marchant-app:install
         
 
       - name: Install Dependecies
