@@ -16,6 +16,9 @@ jobs:
           node-version: '20'
       - name: Generate prisma cliwnt
         run: npm run db:generate
+        
+      - name: Install depencies in user-app
+        run: npm run user-app:install
 
       - name: Install Dependecies
         run: npm install
