@@ -8,7 +8,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "db:generate": "cd packages/db && npx prisma generate && cd ../../",
     "user-app:install": "cd apps/user-app && npm install && cd ../../",
-    "marchant-app:install": "cd apps/merchant-app && npm install && cd ../../"
+    "marchant-app:install": "cd apps/merchant-app && npm install && cd ../../",
+    "start-user-app": "cd apps/user-app && npm run start"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
